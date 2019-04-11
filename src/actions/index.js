@@ -11,25 +11,11 @@ export const DECREMENT = 'DECREMENT';
 
 export const increment = () => {
   // Fill in this function
-this.setState({
-  count: this.StaticRange.count + 1
-});
-
-  return {
-  type: INCREMENT,
-  payload: increment
-  };
+  return {type: INCREMENT}
 };
 
 export const decrement = () => {
   // Fill in this function
-  this.setState({
-    count: this.StaticRange.count - 1
-  });
-
-  return {
-    type: DECREMENT,
-    payload: decrement
-    };
+  return {type: DECREMENT}
 };
 
